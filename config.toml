@@ -1,0 +1,41 @@
+baseURL = "https://www.poemesperdustrouves.info/"
+title = "poëmes perdus trouvés"
+googleAnalytics = "UA-XXXXXXXXX-X"
+description = "poëmes perdus trouvés / poésie / art conceptuel"
+keywords = ["poèmes", "poëmes", "perdus", "trouvés", "enquêtes", "enquêtes poétiques", "poétique", "nantes", "marseille", "poésie", "art", "conceptuel", "contemporain", "art conceptuel", "art contemporain", "édition"]
+enableRobotsTXT = true
+canonifyURLs = true
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[params]
+description = "poëmes perdus trouvés / poësie / art conceptuel"
+  # change this!
+
+[Permalinks]
+  post = "post/:slug"
+
+[[params.menu]]
+  name = "poëmes"
+  url = "poemes/"
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
